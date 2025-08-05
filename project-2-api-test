@@ -10,8 +10,18 @@
 - Method: POST  
 - Endpoint: `/api/login`  
 - Body:
-```json
 {
   "username": "user01",
   "password": "pass123"
+}
+---
+
+### ❌ Invalid Login
+- Method: POST  
+- Endpoint: `/api/login`  
+- Body:
+```json
+{
+  "username": "user01",
+  "password": "wrongpass"
 }

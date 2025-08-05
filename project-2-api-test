@@ -1,0 +1,17 @@
+# Login API Test
+
+## Tools Used:
+- Postman
+- RESTful API
+
+## Test Cases:
+
+### ✅ Valid Login
+- Method: POST  
+- Endpoint: `/api/login`  
+- Body:
+```json
+{
+  "username": "user01",
+  "password": "pass123"
+}
